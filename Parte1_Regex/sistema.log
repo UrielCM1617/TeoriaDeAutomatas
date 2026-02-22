@@ -1,0 +1,5 @@
+2026-02-15 10:30:45 [ERROR] Fallo en conexion a DB: timeout
+2026-02-15 10:31:12 [INFO] Usuario admin inicio sesion desde 192.168.1.100
+2026-02-15 10:35:20 [WARNING] Memoria al 85% de capacidad
+2026-02-15 10:40:33 [ERROR] Archivo no encontrado: /data/config.xml
+2026-02-15 10:45:15 [INFO] Proceso completado en 1234ms
