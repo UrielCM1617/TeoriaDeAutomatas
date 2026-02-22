@@ -35,5 +35,7 @@ Para el ejercicio1_2 se hizo uso de un 'sistema.log'. Se hizo de manera manual p
 
 ### Ejecucion de los ejercicios
 Antes de ejecutar el programa debemos de usar:
+    ```bash
     pip install ply
+
 De esta manera haremos uso de de la libreria Flex 
