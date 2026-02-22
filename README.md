@@ -19,11 +19,11 @@ Esta sección no requiere compilación, los programas se ejecutan directamente d
 ###  Ejecución de los ejercicios  
 Cada archivo puede ejecutarse con el siguiente comando:  
 
-    ```bash
-    python ejercicio1_1.py
-    python ejercicio1_2.py
-    python ejercicio1_3.py
-    python ejercicio1_4.py
+```bash
+python ejercicio1_1.py
+python ejercicio1_2.py
+python ejercicio1_3.py
+python ejercicio1_4.py
 
 ---
 
