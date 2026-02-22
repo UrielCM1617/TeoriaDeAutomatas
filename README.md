@@ -38,4 +38,7 @@ Antes de ejecutar el programa debemos de usar:
     
     pip install ply
 
-De esta manera haremos uso de de la libreria Flex 
+De esta manera haremos uso de de la libreria Flex.
+En este primer ejercicio se crearon 'config.json' y 'seguridad.log' los cuales usaremos
+para simular el escenario que se propuso para la practica. Una vez que se ejecute se creara
+el script 'reporte_seguridad.html'
