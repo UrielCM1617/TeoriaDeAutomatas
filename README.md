@@ -1,21 +1,26 @@
-# Tarea 3: Expresiones Regulares  
+#  Tarea 3: Expresiones Regulares  
+
 **Alumno:** Uriel Castillo Martínez  
 **Matrícula:** 2223068846  
 
 ---
 
-## Requisitos  
-Para ejecutar los programas se requiere tener instalados:  
+##  Requisitos  
+Para ejecutar los programas es necesario contar con:  
 - **Python**  
 - **Flex**  
-- **GCC** (para compilar Flex)  
+- **GCC** (para compilar programas con Flex)  
 
 ---
 
-## Parte 1: Regex en Python  
+##  Parte 1: Regex en Python  
 Esta sección no requiere compilación, los programas se ejecutan directamente desde la terminal.  
 
-### Ejecución de los ejercicios:  
-- **Ejercicio 1_1**  
-  ```bash
-  python ejercicio1_1.py
+###  Ejecución de los ejercicios  
+Cada archivo puede ejecutarse con el siguiente comando:  
+
+```bash
+python ejercicio1_1.py
+python ejercicio1_2.py
+python ejercicio1_3.py
+python ejercicio1_4.py
