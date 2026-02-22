@@ -19,10 +19,10 @@ Esta sección no requiere compilación, los programas se ejecutan directamente d
 ###  Ejecución de los ejercicios  
 Cada archivo puede ejecutarse con el siguiente comando:  
 
-        python ejercicio1_1.py
-        python ejercicio1_2.py
-        python ejercicio1_3.py
-        python ejercicio1_4.py
+    python ejercicio1_1.py
+    python ejercicio1_2.py
+    python ejercicio1_3.py
+    python ejercicio1_4.py
 
 Para el ejercicio1_2 se hizo uso de un 'sistema.log'. Se hizo de manera manual para comprobar el uso del programa 
 ---
