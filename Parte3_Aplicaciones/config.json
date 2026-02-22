@@ -1,0 +1,19 @@
+{
+    "blacklist_ips": [
+        "192.168.1.50",
+        "10.0.0.20",
+        "172.16.0.100"
+    ],
+    "danger_commands": [
+        "rm -rf",
+        "dd",
+        "mkfs",
+        "shutdown",
+        "sudo -s",
+        "chmod 777"
+    ],
+    "thresholds": {
+        "max_login_attempts": 5,
+        "window_seconds": 60
+    }
+}

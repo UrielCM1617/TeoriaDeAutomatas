@@ -1,0 +1,41 @@
+
+        <html>
+        <head>
+            <title>Reporte de Seguridad</title>
+            <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+            <style>
+                body { font-family: 'Segoe UI', sans-serif; margin: 40px; background: #f8f9fa; }
+                .container { max-width: 900px; margin: auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+                .CRITICAL { background: #dc3545; color: white; padding: 3px 8px; border-radius: 4px; font-weight: bold; }
+                .HIGH { background: #fd7e14; color: white; padding: 3px 8px; border-radius: 4px; font-weight: bold; }
+                table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+                th, td { padding: 12px; border-bottom: 1px solid #ddd; text-align: left; }
+                th { background: #212529; color: white; }
+                .chart-container { width: 320px; margin: 20px auto; }
+            </style>
+        </head>
+        <body>
+            <div class="container">
+                <h1> Reporte de Monitoreo de Seguridad</h1>
+                <p>Análisis de archivo: <strong>seguridad.log</strong></p>
+                <div class="chart-container"><canvas id="myChart"></canvas></div>
+                <table>
+                    <tr><th>Nivel</th><th>Fecha y Hora</th><th>Mensaje de Alerta</th></tr>
+        <tr><td><span class='CRITICAL'>CRITICAL</span></td><td>2026-02-15 10:00:30</td><td>Fuerza bruta detectada: 192.168.1.10</td></tr><tr><td><span class='CRITICAL'>CRITICAL</span></td><td>2026-02-15 10:00:35</td><td>Fuerza bruta detectada: 192.168.1.10</td></tr><tr><td><span class='CRITICAL'>CRITICAL</span></td><td>2026-02-15 10:05:00</td><td>Comando peligroso detectado: rm -rf</td></tr><tr><td><span class='HIGH'>HIGH</span></td><td>2026-02-15 10:10:00</td><td>IP en lista negra detectada: 10.0.0.20</td></tr>
+                </table>
+            </div>
+            <script>
+                new Chart(document.getElementById('myChart'), {
+                    type: 'pie',
+                    data: {
+                        labels: ['Crítico (CRITICAL)', 'Alto (HIGH)'],
+                        datasets: [{ 
+                            data: [3, 1], 
+                            backgroundColor: ['#dc3545', '#fd7e14'] 
+                        }]
+                    },
+                    options: { plugins: { legend: { position: 'bottom' } } }
+                });
+            </script>
+        </body></html>
+        
