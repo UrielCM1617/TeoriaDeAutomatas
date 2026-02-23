@@ -1,0 +1,5 @@
+nombre,edad,email,activo
+Juan,25,juan@mail.com,true
+Ana,30,ana@correo.org,false
+Pedro,abc,noesunmail,si
+Carlos,22,carlos@,true

@@ -51,7 +51,7 @@ Escribir desde la terminal:
     make run EJ=2_3 PATRON="int" FILE=pruebas/prueba2_3.c
 
 ### Ejercicio2_4
-EScribir desde la termianl:
+Escribir desde la termianl:
 
     make run EJ=2_4 FILE=pruebas/prueba2_4.c
 ## Notas Importantes
@@ -62,10 +62,10 @@ EScribir desde la termianl:
 
 ---
 
-
 ## Parte 3: En aplicacipones Flex +
 
-### Ejecucion de los ejercicios
+
+### Ejecucion de los ejercicios Asegurarse de estar en /Parte3_Aplicaciones
 Antes de ejecutar el programa debemos de usar:
     
     pip install ply
@@ -74,3 +74,13 @@ De esta manera haremos uso de de la libreria Flex.
 En este primer ejercicio se crearon 'config.json' y 'seguridad.log' los cuales usaremos
 para simular el escenario que se propuso para la practica. Una vez que se ejecute se creara
 el script 'reporte_seguridad.html'
+
+#### ejercicio3_1
+Solo es necesario tener instalado el ply que se menciono en el punto anterior y solo ejecutamos en la terminal:
+    
+    python python ejercicio3_1.py
+
+#### ejercicio3_1
+Solo es necesario tener instalado el ply que se menciono en el punto anterior y solo ejecutamos en la terminal:
+    
+    python python ejercicio3_1.py
