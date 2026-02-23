@@ -26,19 +26,41 @@ Cada script puede ejecutarse con el siguiente comando:
     python ejercicio1_4.py
 
 Para el ejercicio1_2 se hizo uso de un 'sistema.log'. Se hizo de manera manual para comprobar el uso del programa 
+
 ---
 
 ## Parte 2: Flex en C
+Para ejecutar tosos los scripts es necesario estar en la carpeta \Parte2_Flex
+
+### Ejecucion de los ejercicios
 Es requerido tener instaldo Flex, en caso de usar Linux o Mac, no es necesario hacer cambios
 
-
-### Ejecucion de los ejercicios 
 #### Ejercicio 2_1
 Escribir desde la terminal:
 
     make run EJ=2_1 FILE=pruebas/prueba2_1.txt
 
 #### Ejercicio2_2
+Escribir desde la terminal:
+
+    make run EJ=2_2 FILE=pruebas/prueba2_2.c
+
+#### Ejercicio2_3
+Escribir desde la terminal:
+
+    make run EJ=2_3 PATRON="int" FILE=pruebas/prueba2_3.c
+
+### Ejercicio2_4
+EScribir desde la termianl:
+
+    make run EJ=2_4 FILE=pruebas/prueba2_4.c
+## Notas Importantes
+
+- **Estructura de salida:** Todos los resultados de la parte 2 "Flex" se almacenan automáticamente en la carpeta `salidas/` para mantener el espacio de trabajo organizado.
+- **Reporte de líneas:** Se utiliza `%option yylineno` en los analizadores de la Parte 2 para reportar con precisión la línea exacta en alertas de *code smells*.
+- **Gestión de argumentos:** El `Makefile` maneja dinámicamente los parámetros requeridos por cada ejercicio (patrones, archivos de entrada y salida) de forma transparente para el usuario.
+
+---
 
 
 ## Parte 3: En aplicacipones Flex +
