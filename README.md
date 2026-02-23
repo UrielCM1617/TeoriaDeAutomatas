@@ -8,6 +8,7 @@
 ##  Requisitos  
 Para ejecutar los programas es necesario contar con:  
 - **Python**  
+- **Flex 2.6 en adelante. En caso de usar windows**
 - **PYL (Python Lex-Yacc)**  
 - **GCC** (para compilar programas con Flex)  
 
@@ -17,7 +18,7 @@ Para ejecutar los programas es necesario contar con:
 Esta sección no requiere compilación, los programas se ejecutan directamente desde la terminal.  
 
 ###  Ejecución de los ejercicios  
-Cada archivo puede ejecutarse con el siguiente comando:  
+Cada script puede ejecutarse con el siguiente comando:  
 
     python ejercicio1_1.py
     python ejercicio1_2.py
@@ -28,8 +29,14 @@ Para el ejercicio1_2 se hizo uso de un 'sistema.log'. Se hizo de manera manual p
 ---
 
 ## Parte 2: Flex en C
+El make file esta modificado para hacer uno de flex, En caso de usar Linux o Mac, cambiar el comando:
+    LEX = win_flex
+por el comando:
+    LEX = flex
+Estos cambios se deberan hacer desde el MAKEFile
 
 ### Ejecucion de los ejercicios 
+#### Ejercicio 2_1
 
 ## Parte 3: En aplicacipones Flex +
 

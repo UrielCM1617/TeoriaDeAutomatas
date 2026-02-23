@@ -1,0 +1,1 @@
+La teoría de autómatas es fundamental en ciencias de la computación. Puedes contactarme en teoria@uam.mx o visitar www.ejemplo.com El estado-del-arte incluye AFD, AFND y expresiones-regulares. Los números 123 y 456 son importantes.
