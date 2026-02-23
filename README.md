@@ -80,7 +80,7 @@ Solo es necesario tener instalado el ply que se menciono en el punto anterior y 
     
     python python ejercicio3_1.py
 
-#### ejercicio3_1
+#### ejercicio3_2
 Solo es necesario tener instalado el ply que se menciono en el punto anterior y solo ejecutamos en la terminal:
     
-    python python ejercicio3_1.py
+    python python ejercicio3_2.py
