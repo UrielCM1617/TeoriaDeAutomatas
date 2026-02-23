@@ -29,14 +29,16 @@ Para el ejercicio1_2 se hizo uso de un 'sistema.log'. Se hizo de manera manual p
 ---
 
 ## Parte 2: Flex en C
-El make file esta modificado para hacer uno de flex, En caso de usar Linux o Mac, cambiar el comando:
-    LEX = win_flex
-por el comando:
-    LEX = flex
-Estos cambios se deberan hacer desde el MAKEFile
+Es requerido tener instaldo Flex, en caso de usar Linux o Mac, no es necesario hacer cambios
+
 
 ### Ejecucion de los ejercicios 
 #### Ejercicio 2_1
+Escribir desde la terminal:
+        make run EJ=2_1 FILE=pruebas/prueba2_1.txt
+
+#### Ejercicio2_2
+
 
 ## Parte 3: En aplicacipones Flex +
 
