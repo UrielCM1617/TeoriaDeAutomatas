@@ -35,7 +35,8 @@ Es requerido tener instaldo Flex, en caso de usar Linux o Mac, no es necesario h
 ### Ejecucion de los ejercicios 
 #### Ejercicio 2_1
 Escribir desde la terminal:
-        make run EJ=2_1 FILE=pruebas/prueba2_1.txt
+
+    make run EJ=2_1 FILE=pruebas/prueba2_1.txt
 
 #### Ejercicio2_2
 
